@@ -1,0 +1,25 @@
+{
+    "common": {
+        "login": "Login",
+        "register": "Register",
+        "logout": "Logout",
+        "post": "Post",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "edit": "Edit",
+        "save": "Save",
+        "loading": "Loading..."
+    },
+    "timeline": {
+        "placeholder": "What's on your mind?",
+        "no_posts": "No posts yet."
+    },
+    "auth": {
+        "email": "Email",
+        "password": "Password",
+        "name": "Name",
+        "confirm_password": "Confirm Password",
+        "login_title": "Login to SoloMemo",
+        "register_title": "Create Account"
+    }
+}

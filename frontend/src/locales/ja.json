@@ -1,0 +1,25 @@
+{
+    "common": {
+        "login": "ログイン",
+        "register": "登録",
+        "logout": "ログアウト",
+        "post": "投稿",
+        "cancel": "キャンセル",
+        "delete": "削除",
+        "edit": "編集",
+        "save": "保存",
+        "loading": "読み込み中..."
+    },
+    "timeline": {
+        "placeholder": "今どうしてる？",
+        "no_posts": "まだ投稿がありません。"
+    },
+    "auth": {
+        "email": "メールアドレス",
+        "password": "パスワード",
+        "name": "名前",
+        "confirm_password": "パスワード（確認）",
+        "login_title": "SoloMemoにログイン",
+        "register_title": "アカウント作成"
+    }
+}
