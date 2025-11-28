@@ -1,0 +1,46 @@
+[mysqld]
+# Performance optimization for production
+
+# InnoDB settings
+innodb_buffer_pool_size = 1G
+innodb_log_file_size = 256M
+innodb_flush_log_at_trx_commit = 2
+innodb_flush_method = O_DIRECT
+
+# Query cache (disabled in MySQL 8.0+, but keeping for reference)
+# query_cache_size = 0
+# query_cache_type = 0
+
+# Connection settings
+max_connections = 200
+max_connect_errors = 100
+
+# Buffer sizes
+key_buffer_size = 32M
+sort_buffer_size = 2M
+read_buffer_size = 2M
+read_rnd_buffer_size = 4M
+join_buffer_size = 2M
+
+# Table cache
+table_open_cache = 4000
+table_definition_cache = 2000
+
+# Thread settings
+thread_cache_size = 50
+
+# Temp table settings
+tmp_table_size = 64M
+max_heap_table_size = 64M
+
+# Logging
+slow_query_log = 1
+slow_query_log_file = /var/lib/mysql/slow-query.log
+long_query_time = 2
+
+# Character set
+character-set-server = utf8mb4
+collation-server = utf8mb4_unicode_ci
+
+# Timezone
+default-time-zone = '+09:00'
